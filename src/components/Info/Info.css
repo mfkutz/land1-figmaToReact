@@ -1,0 +1,32 @@
+#info .info-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 4px;
+}
+
+#info .amount {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: normal;
+}
+
+#info .type {
+
+    font-family: Alegreya;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#info .wrapper {
+    position: relative;
+}
+
+#info .bg-element-2 {
+    position: absolute;
+    top: -10px;
+    left: 0;
+}
