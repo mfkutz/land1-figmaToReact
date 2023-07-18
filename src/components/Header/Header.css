@@ -74,3 +74,24 @@ header .cta .demo-btn {
     line-height: normal;
 
 }
+
+/* Tablet Version */
+@media (max-width:1040px) {
+    header .cta {
+        width: 356px;
+    }
+}
+
+/* Mobile Version */
+@media (max-width:720px) {
+    header .cta {
+        width: unset;
+        right: 32px;
+        left: 32px;
+        max-height: 281px;
+    }
+
+    header .cta h1{
+        font-size: 32px;
+    }
+}

@@ -51,6 +51,11 @@ const Footer = () => {
             </ul>
           </div>
 
+
+          <div className='copyright-mobile'>
+            This website is designed by MFK Digital Ⓒ 2023
+          </div>
+
         </div>
       </div>
     </footer>

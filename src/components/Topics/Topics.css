@@ -48,3 +48,22 @@
     right: -24px;
     bottom: 0;
 }
+
+@media (max-width:1024px) {
+    #topics .topic-image img {
+        width: 385px;
+        height: 280px;
+    }
+}
+
+@media(max-width:720px) {
+    #topics .topic-image img {
+        display: none;
+    }
+
+    #topics .bg-element-1 {
+        position: absolute;
+        right: 32px;
+       
+    }
+}

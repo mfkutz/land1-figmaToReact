@@ -30,3 +30,31 @@
     top: -10px;
     left: 0;
 }
+
+/* Tablet Version */
+@media (max-width:1040px) {}
+
+/* Mobile Version */
+@media (max-width:720px) {
+    .content-container {
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    #info .content-container img {
+        width: 100px;
+    }
+
+    #info .amount {
+        font-size: 32px;
+    }
+
+    #info .type {
+        font-size: 24px;
+    }
+
+    #info .bg-element-2 {
+        top: -10px;
+        left: 32px;
+    }
+}

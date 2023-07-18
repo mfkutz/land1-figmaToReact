@@ -17,6 +17,10 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 
 /* all page (with this class) will be contained with a maximum of 1024px */
 .wrapper {
@@ -71,4 +75,29 @@ section h2.light::after {
 
 section .content-container {
     display: flex;
+}
+
+
+
+/* Tablet Version */
+@media (max-width:1040px) {
+    .wrapper {
+        max-width: 694px;
+    }
+}
+
+/* SmartPhone Version */
+@media (max-width:720px) {
+    .wrapper {
+        padding: 0 32px;
+    }
+
+    section h2 {
+        font-size: 24px;
+    }
+
+    section h2::after {
+        width: 50px;
+        bottom: 0;
+    }
 }
